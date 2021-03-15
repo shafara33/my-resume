@@ -2,8 +2,8 @@ import profile from '../projectImages/profile-picture.jpg';
 
 const CV = () => {
   return (
-    <div className='row p-5'>
-      <div className='cv col-md-6 pl-5 pr-5'>
+    <div className='row p-3'>
+      <div className='cv col-md-6 pl-3 pr-3'>
         <h5 className='cv-heading'>EDUCATION</h5>
         <h2 className='cv-content'>makerere university, 2019-present</h2>
         <h5 className='cv-heading'>CONTACT INFO</h5>
