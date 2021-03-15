@@ -2,7 +2,6 @@ import Navbar from './components/Navbar';
 import './App.css';
 import CV from './components/CV';
 import Home from './components/Home';
-import About from './components/About';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -17,7 +16,6 @@ function App() {
           <Route exact path='/'>
             <Home />
           </Route>
-
           <Route exact path='/see-cv'>
             <CV />
           </Route>
